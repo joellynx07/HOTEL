@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "explore": "Explorer",
+    "list_property": "Référencer votre établissement",
+    "sign_in": "Se connecter",
+    "dashboard": "Tableau de bord"
+  },
+  "discovery": {
+    "headline": "Restez proche. Réservez en direct.",
+    "subhead": "Hôtels et auberges vérifiés près de vous — sans commission ni intermédiaire.",
+    "locate_prompt": "Montrez-moi ce qu'il y a près d'ici",
+    "locate_denied": "L'accès à la localisation a été refusé. Recherchez par ville à la place.",
+    "locate_loading": "Recherche des établissements à proximité…",
+    "city_search_placeholder": "Rechercher par ville ou quartier",
+    "filter_hotel": "Hôtels",
+    "filter_hostel": "Auberges",
+    "filter_offers": "Offres",
+    "filter_price": "Prix",
+    "filter_distance": "Distance",
+    "from_price": "À partir de {price} / nuit",
+    "distance_away": "à {distance}",
+    "no_results": "Rien ne correspond pour l'instant — élargissez vos filtres.",
+    "offer_badge": "Offre"
+  },
+  "property": {
+    "book_now": "Contacter",
+    "call": "Appeler",
+    "whatsapp": "WhatsApp",
+    "amenities": "Ce qui est inclus",
+    "availability": "{count} restant(s) ce soir",
+    "sold_out": "Complet"
+  },
+  "booking_modal": {
+    "title": "Contactez {property_name} directement",
+    "subtitle": "Le paiement se fait sur place ou par virement direct — Spynx ne le traite pas.",
+    "select_unit": "Choisissez ce que vous souhaitez réserver",
+    "whatsapp_cta": "Écrire sur WhatsApp",
+    "call_cta": "Appeler l'établissement",
+    "disclaimer": "Vous quittez Spynx pour contacter l'établissement. Confirmez les détails et les tarifs directement avec lui."
+  },
+  "manager": {
+    "onboarding_title": "Référencez votre établissement",
+    "onboarding_subtitle": "Environ cinq minutes. Munissez-vous de votre e-mail professionnel et d'un numéro de contact.",
+    "property_type_prompt": "Que référencez-vous ?",
+    "hotel": "Hôtel",
+    "hostel": "Auberge",
+    "verify_email_title": "Vérifiez votre boîte mail",
+    "verify_email_body": "Nous avons envoyé un lien de vérification à {email}. Cliquez dessus pour activer votre compte.",
+    "accept_tos": "J'accepte les Conditions d'utilisation",
+    "accept_revenue": "J'accepte l'Accord de revenus",
+    "dashboard_title": "Tableau de bord de l'établissement",
+    "inventory_tab": "Inventaire",
+    "media_tab": "Photos et vidéo",
+    "offers_tab": "Offres",
+    "subscription_tab": "Facturation",
+    "add_room": "Ajouter un type de chambre",
+    "add_bed": "Ajouter un type de lit",
+    "status_pending": "En cours de validation",
+    "status_active": "En ligne",
+    "status_suspended": "Accès suspendu"
+  },
+  "admin": {
+    "dashboard_title": "Vue d'ensemble de la plateforme",
+    "total_properties": "Établissements au total",
+    "hotels": "Hôtels",
+    "hostels": "Auberges",
+    "active_subscriptions": "Abonnements actifs",
+    "pending_approvals": "Validations en attente",
+    "revoke_access": "Révoquer l'accès",
+    "grant_access": "Accorder l'accès",
+    "approve": "Approuver",
+    "reject": "Rejeter"
+  },
+  "common": {
+    "loading": "Chargement…",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "language": "Langue"
+  }
+}

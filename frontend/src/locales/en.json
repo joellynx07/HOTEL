@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "explore": "Explore",
+    "list_property": "List your property",
+    "sign_in": "Sign in",
+    "dashboard": "Dashboard"
+  },
+  "discovery": {
+    "headline": "Stay close. Book direct.",
+    "subhead": "Verified hotels and hostels near you — no markup, no middleman.",
+    "locate_prompt": "Show me what's nearby",
+    "locate_denied": "Location access was declined. Search by city instead.",
+    "locate_loading": "Finding places near you…",
+    "city_search_placeholder": "Search by city or neighborhood",
+    "filter_hotel": "Hotels",
+    "filter_hostel": "Hostels",
+    "filter_offers": "Offers",
+    "filter_price": "Price",
+    "filter_distance": "Distance",
+    "from_price": "From {price} / night",
+    "distance_away": "{distance} away",
+    "no_results": "Nothing matches right now — try widening your filters.",
+    "offer_badge": "Offer"
+  },
+  "property": {
+    "book_now": "Get in touch",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "amenities": "What's included",
+    "availability": "{count} left tonight",
+    "sold_out": "Fully booked"
+  },
+  "booking_modal": {
+    "title": "Contact {property_name} directly",
+    "subtitle": "Payment happens in person or by direct transfer — Spynx doesn't process it.",
+    "select_unit": "Choose what you'd like to book",
+    "whatsapp_cta": "Message on WhatsApp",
+    "call_cta": "Call the property",
+    "disclaimer": "You're leaving Spynx to contact the property. Confirm details and rates directly with them."
+  },
+  "manager": {
+    "onboarding_title": "List your property",
+    "onboarding_subtitle": "Takes about five minutes. You'll need your business email and a phone number for guest contact.",
+    "property_type_prompt": "What are you listing?",
+    "hotel": "Hotel",
+    "hostel": "Hostel",
+    "verify_email_title": "Check your inbox",
+    "verify_email_body": "We sent a verification link to {email}. Click it to activate your account.",
+    "accept_tos": "I accept the Terms of Service",
+    "accept_revenue": "I accept the Revenue Agreement",
+    "dashboard_title": "Property dashboard",
+    "inventory_tab": "Inventory",
+    "media_tab": "Photos & video",
+    "offers_tab": "Offers",
+    "subscription_tab": "Billing",
+    "add_room": "Add room type",
+    "add_bed": "Add bed type",
+    "status_pending": "Pending review",
+    "status_active": "Live",
+    "status_suspended": "Access suspended"
+  },
+  "admin": {
+    "dashboard_title": "Platform overview",
+    "total_properties": "Total properties",
+    "hotels": "Hotels",
+    "hostels": "Hostels",
+    "active_subscriptions": "Active subscriptions",
+    "pending_approvals": "Pending approvals",
+    "revoke_access": "Revoke access",
+    "grant_access": "Grant access",
+    "approve": "Approve",
+    "reject": "Reject"
+  },
+  "common": {
+    "loading": "Loading…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "language": "Language"
+  }
+}

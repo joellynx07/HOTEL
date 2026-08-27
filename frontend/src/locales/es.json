@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "explore": "Explorar",
+    "list_property": "Publica tu propiedad",
+    "sign_in": "Iniciar sesión",
+    "dashboard": "Panel"
+  },
+  "discovery": {
+    "headline": "Quédate cerca. Reserva directo.",
+    "subhead": "Hoteles y hostales verificados cerca de ti — sin comisiones ni intermediarios.",
+    "locate_prompt": "Muéstrame lo que hay cerca",
+    "locate_denied": "Se denegó el acceso a la ubicación. Busca por ciudad en su lugar.",
+    "locate_loading": "Buscando lugares cercanos…",
+    "city_search_placeholder": "Buscar por ciudad o barrio",
+    "filter_hotel": "Hoteles",
+    "filter_hostel": "Hostales",
+    "filter_offers": "Ofertas",
+    "filter_price": "Precio",
+    "filter_distance": "Distancia",
+    "from_price": "Desde {price} / noche",
+    "distance_away": "a {distance}",
+    "no_results": "Nada coincide por ahora — prueba ampliando los filtros.",
+    "offer_badge": "Oferta"
+  },
+  "property": {
+    "book_now": "Contactar",
+    "call": "Llamar",
+    "whatsapp": "WhatsApp",
+    "amenities": "Qué incluye",
+    "availability": "Quedan {count} esta noche",
+    "sold_out": "Completo"
+  },
+  "booking_modal": {
+    "title": "Contacta directamente a {property_name}",
+    "subtitle": "El pago se realiza en persona o por transferencia directa — Spynx no lo procesa.",
+    "select_unit": "Elige lo que quieres reservar",
+    "whatsapp_cta": "Escribir por WhatsApp",
+    "call_cta": "Llamar a la propiedad",
+    "disclaimer": "Vas a salir de Spynx para contactar a la propiedad. Confirma detalles y tarifas directamente con ella."
+  },
+  "manager": {
+    "onboarding_title": "Publica tu propiedad",
+    "onboarding_subtitle": "Toma unos cinco minutos. Necesitarás tu correo profesional y un número de contacto.",
+    "property_type_prompt": "¿Qué vas a publicar?",
+    "hotel": "Hotel",
+    "hostel": "Hostal",
+    "verify_email_title": "Revisa tu correo",
+    "verify_email_body": "Enviamos un enlace de verificación a {email}. Haz clic para activar tu cuenta.",
+    "accept_tos": "Acepto los Términos de servicio",
+    "accept_revenue": "Acepto el Acuerdo de ingresos",
+    "dashboard_title": "Panel de la propiedad",
+    "inventory_tab": "Inventario",
+    "media_tab": "Fotos y video",
+    "offers_tab": "Ofertas",
+    "subscription_tab": "Facturación",
+    "add_room": "Añadir tipo de habitación",
+    "add_bed": "Añadir tipo de cama",
+    "status_pending": "En revisión",
+    "status_active": "Activo",
+    "status_suspended": "Acceso suspendido"
+  },
+  "admin": {
+    "dashboard_title": "Resumen de la plataforma",
+    "total_properties": "Propiedades totales",
+    "hotels": "Hoteles",
+    "hostels": "Hostales",
+    "active_subscriptions": "Suscripciones activas",
+    "pending_approvals": "Aprobaciones pendientes",
+    "revoke_access": "Revocar acceso",
+    "grant_access": "Otorgar acceso",
+    "approve": "Aprobar",
+    "reject": "Rechazar"
+  },
+  "common": {
+    "loading": "Cargando…",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "language": "Idioma"
+  }
+}

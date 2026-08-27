@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:            255 255 255;
+  --bg-elevated:   250 250 250;
+  --bg-inset:      244 244 245;
+
+  --fg:              9  9  11;
+  --fg-muted:        82 82 91;
+  --fg-subtle:      161 161 170;
+
+  --border:         228 228 231;
+  --border-strong:  212 212 216;
+
+  --accent:          23  61  99;
+  --accent-fg:       255 255 255;
+  --accent-soft:     224 234 244;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+}
+
+.dark {
+  --bg:               9  9  11;
+  --bg-elevated:     24 24  27;
+  --bg-inset:        39 39  42;
+
+  --fg:             250 250 250;
+  --fg-muted:       161 161 170;
+  --fg-subtle:      113 113 122;
+
+  --border:          39 39  42;
+  --border-strong:   63 63  70;
+
+  --accent:         125 175 224;
+  --accent-fg:        9  9  11;
+  --accent-soft:     30 46  61;
+}
+
+@layer base {
+  html { color-scheme: light; }
+  html.dark { color-scheme: dark; }
+  body {
+    background-color: rgb(var(--bg));
+    color: rgb(var(--fg));
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  .skeleton-shimmer {
+    background: linear-gradient(100deg, rgb(var(--bg-inset)) 30%, rgb(var(--border-strong)) 50%, rgb(var(--bg-inset)) 70%);
+    background-size: 200% 100%;
+    animation: shimmer 1.6s ease-in-out infinite;
+  }
+  @keyframes shimmer {
+    0% { background-position: 150% 0; }
+    100% { background-position: -50% 0; }
+  }
+}
