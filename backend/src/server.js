@@ -1,12 +1,14 @@
-/**
- * src/server.js
- * Entry point — binds the Express app to a port. Run with `npm run dev`
- * (nodemon) or `npm start` (plain node) from the backend/ folder.
- */
+import express from 'express';
+import cors from 'cors';
 
-import { app } from "./app.js";
-import { env } from "./config/env.js";
+const app = express();
 
-app.listen(env.port, () => {
-  console.log(`Spynx API listening on http://localhost:${env.port} (${env.nodeEnv})`);
-});
+// Update this part to allow your Netlify front-end
+app.use(cors({
+  origin: [
+    'https://espotel.netlify.app'      // Your live Netlify production URL
+  ],
+  credentials: true
+}));
+
+// ... rest of your existing app.js code
