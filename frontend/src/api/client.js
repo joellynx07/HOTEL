@@ -6,8 +6,8 @@
  * try/catch instead of checking res.ok everywhere.
  */
 
-// Hardcode your production Render URL directly here
-const API_BASE = "https://onrender.com"; 
+
+const API_BASE = import.meta.env.VITE_API_URL ?? ""; // "" -> same-origin, proxied by Vite in dev
 
 
 async function request(path, options = {}) {
