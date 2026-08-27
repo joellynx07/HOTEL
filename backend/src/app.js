@@ -20,18 +20,22 @@ import { adminRouter } from "./routes/admin.routes.js";
 export const app = express();
 
 app.use(helmet());
+
+// Corrected explicit origins array to accommodate secure credentials verification
 app.use(
   cors({
-    origin: env.appUrl, // the frontend's origin — credentials require an explicit origin, not '*'
+    origin: [
+      "https://espotel.netlify.app", // Your live production frontend URL
+    ],
     credentials: true,
   })
 );
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(attachSession);
 
 // Generous global rate limit — real abuse protection lives per-route
-// (e.g. login) but this catches broad scraping/hammering.
 app.use(
   rateLimit({
     windowMs: 60 * 1000,
